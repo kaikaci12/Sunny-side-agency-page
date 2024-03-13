@@ -38,3 +38,62 @@ header {
   justify-content: center;
   justify-content: space-between;
 }
+nav {
+  position: fixed;
+
+  top: 106px;
+  width: -webkit-fill-available;
+  padding-right: 24px;
+  z-index: 2;
+}
+nav ul {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
+  padding: 39px 0;
+}
+nav ul li {
+  display: flex;
+}
+nav ul li:last-child {
+  width: 140px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  background: #fbd600;
+}
+nav::after {
+  content: "";
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-right: 24px solid white;
+  position: absolute;
+  right: 24px;
+  top: -24px;
+}
+nav ul li:last-child a {
+  color: #24303e;
+  font-family: "Fraunces 9pt Soft" sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.107px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #808397;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.143px;
+  font-family: "Barlow", sans-serif;
+  gap: 32px;
+}
+.navigationActive {
+  display: none;
+}
