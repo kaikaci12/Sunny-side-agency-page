@@ -346,4 +346,69 @@ footer {
 }
 
 @media only screen and (min-width: 1440px) {
+  .starter {
+    background-image: url("./desktop/image-header.jpg");
+  }
+  .burger-icon {
+    display: none;
+  }
+  nav {
+    display: block;
+    width: auto;
+    position: static;
+  }
+  nav::after {
+    display: block;
+  }
+
+  nav ul {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 47px;
+  }
+
+  nav ul li a {
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.129px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li:last-child {
+    width: 140px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.5s;
+  }
+
+  nav ul li:last-child:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  nav ul li:last-child:hover a {
+    color: #fff;
+  }
+  nav ul li:last-child a {
+    color: #24303e;
+    font-family: "Fraunces" sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.107px;
+    padding: 16px 30px 15px 32px;
+    transition: 0.5s;
+  }
 }
