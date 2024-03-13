@@ -292,3 +292,15 @@ h1 {
   letter-spacing: -0.1px;
   margin-top: -23px;
 }
+.ending-photos {
+  display: flex;
+  margin-top: 86px;
+  flex-wrap: wrap;
+}
+.ending-photos picture {
+  width: 50%;
+}
+.ending-photos picture img {
+  height: 100%;
+  width: 100%;
+}
