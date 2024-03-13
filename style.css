@@ -208,3 +208,87 @@ h1 {
   gap: 2px;
   background-image: url("./Images/image-graphic-design.jpg");
 }
+.middle-section .content-title {
+  color: #24554a;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+}
+.middle-section .content-para {
+  color: #24554a;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.114px;
+}
+.cherry h2 {
+  color: #24554a;
+}
+
+.mandarin {
+  background-image: url("./Images/image-photography.jpg");
+}
+.mandarin h2 {
+  color: #052c3b;
+}
+.mandarin p {
+  color: #19536c;
+}
+
+.client-title {
+  color: #a7aaad;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+.client-testimonials {
+  margin-top: 64px;
+  padding: 0 24px;
+}
+.client-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 64px;
+  align-items: center;
+}
+.client-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.client-photos {
+  border-radius: 72px;
+  width: 72px;
+}
+.client-par {
+  color: #5b636d;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.129px;
+}
+.name {
+  color: #24303e;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.129px;
+}
+.profession {
+  color: #a7aaad;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.1px;
+  margin-top: -23px;
+}
