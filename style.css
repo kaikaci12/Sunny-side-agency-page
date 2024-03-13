@@ -453,4 +453,24 @@ footer {
   .content-para {
     width: 445px;
   }
+  .middle-section {
+    display: flex;
+    width: 100%;
+  }
+
+  .cherry {
+    background-image: url("./desktop/image-graphic-design.jpg");
+    width: 50%;
+  }
+
+  .mandarin {
+    background-image: url("./desktop/image-photography.jpg");
+    width: 50%;
+  }
+  .middle-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 398px 190px 59px 191px;
+  }
 }
