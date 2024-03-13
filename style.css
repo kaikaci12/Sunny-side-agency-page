@@ -23,3 +23,13 @@ html {
   height: 100vh;
   background-position: center;
 }
+.starter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+.starter-section img {
+  width: 29.44px;
+  height: 107.484px;
+}
