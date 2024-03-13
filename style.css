@@ -153,3 +153,42 @@ h1 {
   line-height: 30px;
   letter-spacing: -0.129px;
 }
+.learn {
+  display: inline-block;
+  margin-top: 32px;
+  color: #24303e;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  position: relative;
+}
+.learn::before {
+  content: "";
+  width: 137px;
+  height: 10px;
+  border-radius: 28px;
+  opacity: 0.25;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.yellow::before {
+  background: #fad400;
+  left: -8px;
+}
+
+.pink::before {
+  background-color: #fe7766;
+  left: -8px;
+}
+.yellow:hover::before {
+  background: #fad400;
+  opacity: 2;
+}
+.pink:hover::before {
+  background: #ff4081;
+  opacity: 2;
+}
