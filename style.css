@@ -192,3 +192,19 @@ h1 {
   background: #ff4081;
   opacity: 2;
 }
+
+.middle-photos {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 90.17% 24px 59px 24px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.cherry {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background-image: url("./Images/image-graphic-design.jpg");
+}
