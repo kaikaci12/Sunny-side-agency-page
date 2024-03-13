@@ -115,3 +115,41 @@ h1 {
   letter-spacing: -0.229px;
   margin-top: 64px;
 }
+
+.main-section {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.transform {
+  background-image: url("./Images/image-transform.jpg");
+}
+.cup {
+  background-image: url("./Images/image-stand-out.jpg");
+}
+.main-photos {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 42%;
+}
+.main-section-content {
+  padding: 64px 24px;
+  text-align: center;
+  font-family: "Fraunces", serif;
+}
+.content-title {
+  text-align: center;
+  color: #24303e;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.229px;
+}
+.content-para {
+  margin-top: 24px;
+  font-family: "Barlow", sans-serif;
+  color: #808397;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.129px;
+}
