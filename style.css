@@ -485,4 +485,11 @@ footer {
   .ending-photos picture {
     width: 25%;
   }
+  .social-medias svg path {
+    transition: 0.1s;
+    cursor: pointer;
+  }
+  .social-medias svg path:hover {
+    fill: white;
+  }
 }
