@@ -312,3 +312,29 @@ footer {
   background: #90d4c6;
   padding: 64px 39px 80px;
 }
+
+.about {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 57px;
+}
+.about a {
+  color: #458d7e;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.129px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+.about a:hover {
+  color: white;
+}
+
+.social-medias {
+  display: flex;
+  margin-top: 88px;
+  gap: 24px;
+  justify-content: center;
+}
