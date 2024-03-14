@@ -101,7 +101,10 @@ nav ul li a {
   width: 23.552px;
   height: 18px;
   object-fit: contain;
+  position: fixed;
+  left: 90%;
 }
+
 h1 {
   color: #fff;
   font-family: "Fraunces", serif;
