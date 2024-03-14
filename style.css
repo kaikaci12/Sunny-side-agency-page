@@ -97,6 +97,11 @@ nav ul li a {
 .navigationActive {
   display: none;
 }
+.burger-icon {
+  width: 23.552px;
+  height: 18px;
+  object-fit: contain;
+}
 h1 {
   color: #fff;
   font-family: "Fraunces", serif;
@@ -353,7 +358,7 @@ footer {
     display: none;
   }
   nav {
-    display: block;
+    display: block !important;
     width: auto;
     position: static;
   }

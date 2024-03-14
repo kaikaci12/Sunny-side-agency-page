@@ -1,12 +1,12 @@
 const burgerMeniu = document.querySelector(".burger-icon");
 const navigation = document.querySelector("nav");
-let navActive = false;
+let toggle = false;
 burgerMeniu.addEventListener("click", () => {
-  if (!navActive) {
-    navigation.classList.add("navigationActive");
-    navActive = true;
+  navigation.classList.toggle("navigationActive");
+  toggle = !toggle;
+  if (toggle) {
+    burgerMeniu.setAttribute("src", "./images/close.png");
   } else {
-    navigation.classList.remove("navigationActive");
-    navActive = false;
+    burgerMeniu.setAttribute("src", "./images/icon-hamburger.svg");
   }
 });
